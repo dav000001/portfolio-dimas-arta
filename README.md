@@ -1,4 +1,4 @@
-# Dimas Arta® — Portfolio Website
+# Yanuar David® — Portfolio Website
 
 > **Product Designer × Creative Developer**  
 > An ultra-crafted, high-fidelity portfolio website built directly from Figma design with modern web technologies.
@@ -7,7 +7,7 @@
 
 ## 🌟 Overview
 
-This repository contains the official portfolio website for **Dimas Arta®**, featuring a sleek dark-mode aesthetic with neon lime accents (`#b8ff3d`), precise typography, interactive case studies, and responsive design down to the pixel.
+This repository contains the official portfolio website for **Yanuar David®**, featuring a sleek dark-mode aesthetic with neon lime accents (`#b8ff3d`), precise typography, interactive case studies, and responsive design down to the pixel.
 
 * **Figma Source**: [View Design on Figma](https://www.figma.com/design/cp0tLiHtXHvyMQvLMQKkiL/Untitled?node-id=0-1)
 * **Design Philosophy**: *"Merancang produk digital yang terasa hidup."* (Crafting digital products that feel alive.)
@@ -17,7 +17,7 @@ This repository contains the official portfolio website for **Dimas Arta®**, fe
 ## 📸 Key Sections
 
 1. **Header & Navigation**
-   - Brand Monogram (`DA`) and official signature.
+   - Brand Monogram (`YD`) and official signature.
    - Smooth-scrolling navigation links (*Profil*, *Keahlian*, *Proyek*, *Pengalaman*).
    - Real-time availability indicator badge (*Tersedia untuk Q4*) with pulse animation.
 
@@ -49,7 +49,7 @@ This repository contains the official portfolio website for **Dimas Arta®**, fe
 7. **Testimonial & Contact Callout**
    - Endorsement from Maya Pranoto (VP Product, Nusa Finance).
    - High-contrast Neon Lime Banner for collaboration inquiries.
-   - Direct interactive email trigger (`halo@dimasarta.design`).
+   - Direct interactive email trigger (`halo@yanuardavid.design`).
 
 8. **Footer & Live Clock**
    - Dynamic real-time Jakarta time counter (`JKT HH:MM · GMT+7`).
@@ -138,4 +138,4 @@ The optimized production output will be generated in the `dist/` directory.
 ## 📄 License
 
 Created for educational & portfolio presentation purposes.  
-Original design copyright © 2026 Dimas Arta. Built with care.
+Original design copyright © 2026 Yanuar David. Built with care.
