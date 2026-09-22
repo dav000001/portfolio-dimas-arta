@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimas Arta® — Product Designer × Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="bg-[#07080b] text-[#f2f4f8] font-['Inter',sans-serif] antialiased selection:bg-[#b8ff3d] selection:text-[#090b0f]">
+
+  <!-- Outer Container -->
+  <div class="min-h-screen flex flex-col items-center w-full">
+    <div class="w-full max-w-[1440px] flex flex-col bg-[#07080b]">
+
+      <!-- ================= NAVIGATION ================= -->
+      <header class="w-full h-[88px] border-b border-[#252a35] px-6 sm:px-12 lg:px-[80px] flex items-center justify-between sticky top-0 bg-[#07080b]/90 backdrop-blur-md z-50">
+        <!-- Brand -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-[34px] h-[34px] rounded-[8px] bg-[#b8ff3d] flex items-center justify-center text-[#090b0f] font-['Space_Grotesk'] font-bold text-[12px] group-hover:scale-105 transition-transform">
+            DA
+          </div>
+          <span class="font-['Space_Grotesk'] font-bold text-[18px] text-[#f2f4f8] tracking-tight">
+            DIMAS ARTA®
+          </span>
+        </a>
+
+        <!-- Links (Desktop) -->
+        <nav class="hidden md:flex items-center gap-8 text-[#969eae] text-[13px] font-normal">
+          <a href="#profil" class="hover:text-[#f2f4f8] transition-colors">Profil</a>
+          <a href="#keahlian" class="hover:text-[#f2f4f8] transition-colors">Keahlian</a>
+          <a href="#proyek" class="hover:text-[#f2f4f8] transition-colors">Proyek</a>
+          <a href="#pengalaman" class="hover:text-[#f2f4f8] transition-colors">Pengalaman</a>
+        </nav>
+
+        <!-- Availability Status -->
+        <div class="flex items-center gap-2.5">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#b8ff3d] opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-[#b8ff3d]"></span>
+          </span>
+          <span class="text-[#f2f4f8] text-[13px] whitespace-nowrap">
+            Tersedia untuk Q4
+          </span>
+        </div>
+      </header>
+
+      <!-- ================= HERO SECTION ================= -->
+      <section class="w-full px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[88px] flex flex-col lg:flex-row gap-12 lg:gap-[54px] items-start justify-between">
+        <!-- Left Column: Copy & Actions -->
+        <div class="flex flex-col gap-6 w-full lg:w-[760px]">
+          <!-- Section Label -->
+          <div class="flex items-center gap-2.5">
+            <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+            <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+              PRODUCT DESIGNER × CREATIVE DEVELOPER
+            </span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-[#f2f4f8] font-['Space_Grotesk'] font-normal text-5xl sm:text-7xl lg:text-[88px] leading-[0.94] tracking-tight">
+            Merancang produk digital yang terasa hidup.
+          </h1>
+
+          <!-- Intro Paragraph -->
+          <p class="text-[#969eae] text-lg sm:text-[20px] leading-[1.55] max-w-[610px]">
+            Saya Dimas — mengubah masalah kompleks menjadi pengalaman digital yang jelas, ekspresif, dan siap bertumbuh.
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <a href="#proyek" class="h-[52px] px-6 rounded-full bg-[#b8ff3d] hover:bg-[#a8ef2d] text-[#090b0f] font-bold text-[13px] flex items-center gap-3 transition-all duration-200 hover:gap-4 shadow-lg shadow-[#b8ff3d]/10">
+              <span>Lihat proyek pilihan</span>
+              <span class="text-[18px] leading-none">↗</span>
+            </a>
+            <a href="#profil" class="h-[52px] px-6 rounded-full bg-[#141720] hover:bg-[#1a1e2a] border border-[#252a35] text-[#f2f4f8] font-bold text-[13px] flex items-center gap-3 transition-all duration-200">
+              <span>Tentang saya</span>
+              <span class="text-[#b8ff3d] text-[18px] leading-none">↗</span>
+            </a>
+          </div>
+
+          <!-- Metrics Row -->
+          <div class="flex flex-wrap gap-8 sm:gap-11 pt-10 border-t border-[#252a35]/50 mt-4">
+            <div class="flex flex-col gap-1.5">
+              <span class="font-['Space_Grotesk'] font-bold text-3xl text-[#f2f4f8]">08+</span>
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">tahun berkarya</span>
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <span class="font-['Space_Grotesk'] font-bold text-3xl text-[#f2f4f8]">32</span>
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">produk diluncurkan</span>
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <span class="font-['Space_Grotesk'] font-bold text-3xl text-[#f2f4f8]">4.9/5</span>
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">kepuasan klien</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Portrait Card -->
+        <div class="w-full lg:w-[466px] h-[520px] lg:h-[610px] bg-[#0e1015] border border-[#252a35] rounded-[28px] p-4 relative shadow-[0px_20px_80px_0px_rgba(107,124,255,0.15)] flex flex-col group overflow-hidden">
+          <div class="w-full h-full rounded-[16px] overflow-hidden relative">
+            <img src="/assets/portrait.png" alt="Dimas Arta Portrait" class="w-full h-full object-cover rounded-[16px] group-hover:scale-105 transition-transform duration-700">
+          </div>
+          <div class="absolute bottom-8 left-8 bg-[#080a0c]/85 backdrop-blur-md px-3.5 py-2.5 rounded-full border border-white/10 flex items-center">
+            <span class="text-[#f2f4f8] text-[11px] tracking-wider uppercase font-mono">
+              JAKARTA · 06°12′S
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROFILE STATEMENT ================= -->
+      <section id="profil" class="w-full bg-[#0e1015] px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[104px] flex flex-col lg:flex-row gap-12 lg:gap-[120px] items-start border-y border-[#252a35]">
+        <!-- Heading -->
+        <div class="w-full lg:w-[390px] flex flex-col gap-6 shrink-0">
+          <div class="flex items-center gap-2.5">
+            <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+            <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+              PROFIL SINGKAT
+            </span>
+          </div>
+          <h2 class="font-['Space_Grotesk'] font-bold text-3xl lg:text-[40px] leading-[1.08] text-[#f2f4f8]">
+            Strategi yang tajam. Eksekusi yang berkarakter.
+          </h2>
+        </div>
+
+        <!-- Copy -->
+        <div class="flex-1 flex flex-col gap-6">
+          <p class="font-['Space_Grotesk'] text-xl sm:text-2xl lg:text-[28px] leading-[1.35] text-[#f2f4f8]">
+            Saya bekerja di persimpangan desain, teknologi, dan narasi merek.
+          </p>
+          <p class="text-[#969eae] text-[16px] leading-[1.7]">
+            Selama delapan tahun, saya membantu startup dan tim produk menyederhanakan sistem yang rumit—dari riset, arah visual, prototipe, hingga pengalaman final yang dapat diukur. Saya percaya produk terbaik lahir dari rasa ingin tahu, kolaborasi jujur, dan craft yang disiplin.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= EXPERTISE / KEAHLIAN ================= -->
+      <section id="keahlian" class="w-full px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[104px] flex flex-col gap-14">
+        <!-- Section Intro -->
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <div class="flex flex-col gap-4 max-w-[590px]">
+            <div class="flex items-center gap-2.5">
+              <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+              <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+                KEAHLIAN
+              </span>
+            </div>
+            <h2 class="font-['Space_Grotesk'] font-bold text-4xl lg:text-[56px] leading-[1.04] text-[#f2f4f8]">
+              Dari ide kabur menjadi sistem yang jelas.
+            </h2>
+          </div>
+          <p class="text-[#969eae] text-[16px] leading-[1.6] max-w-[400px]">
+            Pendekatan end-to-end untuk produk digital yang perlu tampil berbeda sekaligus bekerja lebih baik.
+          </p>
+        </div>
+
+        <!-- Skill Grid (4 Cards) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Card 1 -->
+          <div class="bg-[#0e1015] border border-[#252a35] hover:border-[#b8ff3d]/50 p-6 rounded-[16px] min-h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+            <span class="text-[#b8ff3d] text-[13px] font-mono">01</span>
+            <div class="flex flex-col gap-3 mt-12">
+              <h3 class="font-['Space_Grotesk'] font-bold text-[24px] lg:text-[26px] text-[#f2f4f8]">
+                Product Strategy
+              </h3>
+              <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                Riset, framing masalah, roadmap, dan validasi peluang.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-[#0e1015] border border-[#252a35] hover:border-[#b8ff3d]/50 p-6 rounded-[16px] min-h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+            <span class="text-[#b8ff3d] text-[13px] font-mono">02</span>
+            <div class="flex flex-col gap-3 mt-12">
+              <h3 class="font-['Space_Grotesk'] font-bold text-[24px] lg:text-[26px] text-[#f2f4f8]">
+                Experience Design
+              </h3>
+              <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                User flow, interaction, prototipe, dan design system.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-[#0e1015] border border-[#252a35] hover:border-[#b8ff3d]/50 p-6 rounded-[16px] min-h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+            <span class="text-[#b8ff3d] text-[13px] font-mono">03</span>
+            <div class="flex flex-col gap-3 mt-12">
+              <h3 class="font-['Space_Grotesk'] font-bold text-[24px] lg:text-[26px] text-[#f2f4f8]">
+                Creative Development
+              </h3>
+              <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                Interface berkarakter yang hidup melalui kode dan motion.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-[#0e1015] border border-[#252a35] hover:border-[#b8ff3d]/50 p-6 rounded-[16px] min-h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+            <span class="text-[#b8ff3d] text-[13px] font-mono">04</span>
+            <div class="flex flex-col gap-3 mt-12">
+              <h3 class="font-['Space_Grotesk'] font-bold text-[24px] lg:text-[26px] text-[#f2f4f8]">
+                Design Leadership
+              </h3>
+              <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                Menyelaraskan tim, kualitas craft, dan keputusan produk.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FEATURED PROJECTS ================= -->
+      <section id="proyek" class="w-full bg-[#0e1015] px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[112px] flex flex-col gap-16 border-t border-[#252a35]">
+        <!-- Projects Heading -->
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div class="flex flex-col gap-3.5">
+            <div class="flex items-center gap-2.5">
+              <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+              <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+                PROYEK UNGGULAN
+              </span>
+            </div>
+            <h2 class="font-['Space_Grotesk'] font-bold text-4xl lg:text-[56px] text-[#f2f4f8]">
+              Studi kasus terpilih
+            </h2>
+          </div>
+          <span class="text-[#969eae] text-[13px] tracking-wider uppercase font-mono">
+            2024—2026 / 03 PROYEK
+          </span>
+        </div>
+
+        <!-- Case Study 1: Nusa Finance -->
+        <div class="flex flex-col lg:flex-row gap-8 items-stretch min-h-[420px]">
+          <!-- Image -->
+          <div class="w-full lg:w-[720px] h-[320px] sm:h-[400px] lg:h-[420px] rounded-[16px] overflow-hidden relative shrink-0 border border-[#252a35] group">
+            <img src="/assets/project-nusa.png" alt="Nusa Finance Case Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <!-- Summary -->
+          <div class="flex-1 flex flex-col justify-between py-2 sm:py-4 gap-6">
+            <div class="flex flex-col gap-3.5">
+              <span class="text-[#b8ff3d] text-[11px] font-bold uppercase tracking-widest">
+                NUSA FINANCE
+              </span>
+              <h3 class="font-['Space_Grotesk'] font-bold text-3xl lg:text-[40px] leading-[1.05] text-[#f2f4f8]">
+                Membuat investasi terasa lebih manusiawi.
+              </h3>
+              <p class="text-[#969eae] text-[11px] tracking-wider uppercase font-mono">
+                PRODUCT STRATEGY · UX/UI · 2026
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">
+                Dampak utama
+              </span>
+              <span class="font-['Space_Grotesk'] font-bold text-xl lg:text-[22px] text-[#f2f4f8]">
+                +38% aktivasi pengguna baru
+              </span>
+            </div>
+
+            <div>
+              <a href="#" class="inline-flex items-center gap-3 h-[52px] px-6 rounded-full bg-[#141720] hover:bg-[#1f2433] border border-[#252a35] text-[#f2f4f8] font-bold text-[13px] transition-all hover:gap-4">
+                <span>Baca studi kasus</span>
+                <span class="text-[#b8ff3d] text-[18px] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 2: Ruang Energi -->
+        <div class="flex flex-col lg:flex-row gap-8 items-stretch min-h-[420px]">
+          <!-- Image -->
+          <div class="w-full lg:w-[510px] h-[320px] sm:h-[400px] lg:h-[420px] rounded-[16px] overflow-hidden relative shrink-0 border border-[#252a35] group">
+            <img src="/assets/project-ruang-energi.png" alt="Ruang Energi Case Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <!-- Summary -->
+          <div class="flex-1 flex flex-col justify-between py-2 sm:py-4 gap-6">
+            <div class="flex flex-col gap-3.5">
+              <span class="text-[#b8ff3d] text-[11px] font-bold uppercase tracking-widest">
+                RUANG ENERGI
+              </span>
+              <h3 class="font-['Space_Grotesk'] font-bold text-3xl lg:text-[40px] leading-[1.05] text-[#f2f4f8]">
+                Sistem kendali untuk masa depan energi.
+              </h3>
+              <p class="text-[#969eae] text-[11px] tracking-wider uppercase font-mono">
+                RESEARCH · DESIGN SYSTEM · 2025
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">
+                Dampak utama
+              </span>
+              <span class="font-['Space_Grotesk'] font-bold text-xl lg:text-[22px] text-[#f2f4f8]">
+                –42% waktu respons operator
+              </span>
+            </div>
+
+            <div>
+              <a href="#" class="inline-flex items-center gap-3 h-[52px] px-6 rounded-full bg-[#141720] hover:bg-[#1f2433] border border-[#252a35] text-[#f2f4f8] font-bold text-[13px] transition-all hover:gap-4">
+                <span>Baca studi kasus</span>
+                <span class="text-[#b8ff3d] text-[18px] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 3: Kala Studio -->
+        <div class="flex flex-col lg:flex-row gap-8 items-stretch min-h-[420px]">
+          <!-- Image -->
+          <div class="w-full lg:w-[720px] h-[320px] sm:h-[400px] lg:h-[420px] rounded-[16px] overflow-hidden relative shrink-0 border border-[#252a35] group">
+            <img src="/assets/project-kala.png" alt="Kala Studio Case Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <!-- Summary -->
+          <div class="flex-1 flex flex-col justify-between py-2 sm:py-4 gap-6">
+            <div class="flex flex-col gap-3.5">
+              <span class="text-[#b8ff3d] text-[11px] font-bold uppercase tracking-widest">
+                KALA STUDIO
+              </span>
+              <h3 class="font-['Space_Grotesk'] font-bold text-3xl lg:text-[40px] leading-[1.05] text-[#f2f4f8]">
+                Identitas digital yang bergerak seirama.
+              </h3>
+              <p class="text-[#969eae] text-[11px] tracking-wider uppercase font-mono">
+                ART DIRECTION · DEVELOPMENT · 2025
+              </p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <span class="text-[#969eae] text-[11px] uppercase tracking-wider">
+                Dampak utama
+              </span>
+              <span class="font-['Space_Grotesk'] font-bold text-xl lg:text-[22px] text-[#f2f4f8]">
+                2.6× inquiry berkualitas
+              </span>
+            </div>
+
+            <div>
+              <a href="#" class="inline-flex items-center gap-3 h-[52px] px-6 rounded-full bg-[#141720] hover:bg-[#1f2433] border border-[#252a35] text-[#f2f4f8] font-bold text-[13px] transition-all hover:gap-4">
+                <span>Baca studi kasus</span>
+                <span class="text-[#b8ff3d] text-[18px] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EXPERIENCE & PROCESS ================= -->
+      <section id="pengalaman" class="w-full px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[112px] flex flex-col gap-20">
+        <!-- Part 1: Experience -->
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-[110px] items-start">
+          <!-- Intro -->
+          <div class="w-full lg:w-[400px] flex flex-col gap-4 shrink-0">
+            <div class="flex items-center gap-2.5">
+              <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+              <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+                PENGALAMAN
+              </span>
+            </div>
+            <h2 class="font-['Space_Grotesk'] font-bold text-4xl lg:text-[56px] leading-[1.05] text-[#f2f4f8]">
+              Craft yang ditempa oleh konteks nyata.
+            </h2>
+          </div>
+
+          <!-- Timeline Rows -->
+          <div class="flex-1 flex flex-col w-full">
+            <!-- Row 1 -->
+            <div class="border-t border-[#252a35] py-7 flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6">
+              <span class="text-[#b8ff3d] text-[11px] font-mono w-[130px] shrink-0">
+                2023—SEKARANG
+              </span>
+              <div class="w-[230px] shrink-0 flex flex-col gap-1.5">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[22px] text-[#f2f4f8]">
+                  Lead Product Designer
+                </h4>
+                <p class="text-[#969eae] text-[13px]">
+                  Orbit Digital
+                </p>
+              </div>
+              <p class="text-[#969eae] text-[13px] leading-[1.6] flex-1">
+                Memimpin craft dan strategi untuk platform B2B lintas Asia Tenggara.
+              </p>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="border-t border-[#252a35] py-7 flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6">
+              <span class="text-[#b8ff3d] text-[11px] font-mono w-[130px] shrink-0">
+                2020—2023
+              </span>
+              <div class="w-[230px] shrink-0 flex flex-col gap-1.5">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[22px] text-[#f2f4f8]">
+                  Senior Product Designer
+                </h4>
+                <p class="text-[#969eae] text-[13px]">
+                  Gojek Creative Labs
+                </p>
+              </div>
+              <p class="text-[#969eae] text-[13px] leading-[1.6] flex-1">
+                Mendesain pengalaman pertumbuhan dan sistem visual berskala besar.
+              </p>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="border-t border-[#252a35] py-7 flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6 border-b">
+              <span class="text-[#b8ff3d] text-[11px] font-mono w-[130px] shrink-0">
+                2018—2020
+              </span>
+              <div class="w-[230px] shrink-0 flex flex-col gap-1.5">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[22px] text-[#f2f4f8]">
+                  Designer & Developer
+                </h4>
+                <p class="text-[#969eae] text-[13px]">
+                  Studio Independen
+                </p>
+              </div>
+              <p class="text-[#969eae] text-[13px] leading-[1.6] flex-1">
+                Berkolaborasi dengan founder untuk meluncurkan produk dari nol.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Part 2: Process Steps -->
+        <div class="bg-[#0e1015] border border-[#252a35] rounded-[24px] p-6 sm:p-12 lg:p-[80px] flex flex-col gap-14">
+          <!-- Process Intro -->
+          <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+            <div class="flex flex-col gap-4">
+              <div class="flex items-center gap-2.5">
+                <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+                <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+                  PROSES KERJA
+                </span>
+              </div>
+              <h3 class="font-['Space_Grotesk'] font-bold text-4xl lg:text-[56px] text-[#f8f2f2]">
+                Terstruktur, bukan kaku.
+              </h3>
+            </div>
+            <p class="text-[#969eae] text-[16px] leading-[1.6] max-w-[400px]">
+              Ruang yang cukup untuk eksplorasi, dengan ritme yang menjaga keputusan tetap tajam.
+            </p>
+          </div>
+
+          <!-- Step Grid (4 Steps) -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Step 1 -->
+            <div class="bg-[#07080b] border border-[#252a35] p-6 rounded-[16px] min-h-[260px] flex flex-col justify-between">
+              <span class="font-['Space_Grotesk'] text-[#6b7cff] text-[38px]">01</span>
+              <div class="flex flex-col gap-3">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[26px] text-[#f2f4f8]">Pahami</h4>
+                <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                  Menyatukan konteks bisnis, kebutuhan pengguna, dan batasan nyata.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-[#07080b] border border-[#252a35] p-6 rounded-[16px] min-h-[260px] flex flex-col justify-between">
+              <span class="font-['Space_Grotesk'] text-[#6b7cff] text-[38px]">02</span>
+              <div class="flex flex-col gap-3">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[26px] text-[#f2f4f8]">Bentuk</h4>
+                <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                  Mengeksplorasi arah, menguji asumsi, dan memilih ide terkuat.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-[#07080b] border border-[#252a35] p-6 rounded-[16px] min-h-[260px] flex flex-col justify-between">
+              <span class="font-['Space_Grotesk'] text-[#6b7cff] text-[38px]">03</span>
+              <div class="flex flex-col gap-3">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[26px] text-[#f2f4f8]">Bangun</h4>
+                <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                  Mendesain detail, membuat prototipe, dan berkolaborasi dengan engineering.
+                </p>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="bg-[#07080b] border border-[#252a35] p-6 rounded-[16px] min-h-[260px] flex flex-col justify-between">
+              <span class="font-['Space_Grotesk'] text-[#6b7cff] text-[38px]">04</span>
+              <div class="flex flex-col gap-3">
+                <h4 class="font-['Space_Grotesk'] font-bold text-[26px] text-[#f2f4f8]">Belajar</h4>
+                <p class="text-[#969eae] text-[13px] leading-[1.55]">
+                  Mengukur dampak, merawat sistem, dan mengiterasi dengan tenang.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TESTIMONIAL ================= -->
+      <section class="w-full px-6 sm:px-12 lg:px-[200px] py-20 lg:py-[120px] flex flex-col items-center text-center gap-8 border-t border-[#252a35]">
+        <!-- Label -->
+        <div class="flex items-center gap-2.5">
+          <span class="text-[#b8ff3d] text-[18px] leading-none">●</span>
+          <span class="text-[#969eae] text-[11px] font-bold tracking-wider uppercase">
+            TESTIMONI
+          </span>
+        </div>
+
+        <!-- Big Quote Symbol -->
+        <span class="font-['Space_Grotesk'] text-[#b8ff3d] text-[72px] leading-none select-none">
+          “
+        </span>
+
+        <!-- Quote Content -->
+        <p class="font-['Space_Grotesk'] font-medium text-2xl sm:text-3xl lg:text-[44px] leading-[1.25] text-[#f2f4f8] max-w-[1040px]">
+          Dimas tidak hanya membuat layar yang indah. Ia membantu kami melihat produk dengan cara yang lebih jernih—lalu membawa seluruh tim menuju standar baru.
+        </p>
+
+        <!-- Author Info -->
+        <div class="flex items-center gap-3.5 pt-4">
+          <img src="/assets/testimonial-maya.png" alt="Maya Pranoto" class="w-11 h-11 rounded-full object-cover border border-[#252a35]">
+          <div class="flex flex-col text-left">
+            <span class="font-bold text-[13px] text-[#f2f4f8]">Maya Pranoto</span>
+            <span class="text-[#969eae] text-[11px]">VP Product, Nusa Finance</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT CALLOUT ================= -->
+      <section class="w-full bg-[#b8ff3d] text-[#090b0f] px-6 sm:px-12 lg:px-[80px] py-16 lg:py-[88px] flex flex-col lg:flex-row gap-12 lg:gap-[80px] items-start justify-between">
+        <!-- Left Headline -->
+        <div class="flex flex-col gap-6 w-full lg:w-[760px]">
+          <span class="text-[11px] font-bold uppercase tracking-wider font-mono">
+            TERSEDIA UNTUK KOLABORASI TERPILIH
+          </span>
+          <h2 class="font-['Space_Grotesk'] font-normal text-4xl sm:text-6xl lg:text-[72px] leading-[0.98] tracking-tight">
+            Punya produk yang layak dibuat luar biasa?
+          </h2>
+        </div>
+
+        <!-- Right Action -->
+        <div class="flex-1 flex flex-col justify-between gap-8 w-full">
+          <p class="text-[16px] leading-[1.6] text-[#090b0f] max-w-[440px]">
+            Ceritakan tantangan, ambisi, atau ide yang sedang Anda bangun. Saya biasanya membalas dalam 1–2 hari kerja.
+          </p>
+          <a href="mailto:halo@dimasarta.design" class="h-[64px] px-6 rounded-full bg-[#090b0f] text-[#f2f4f8] hover:bg-[#151922] transition-colors flex items-center justify-between group max-w-[440px] w-full">
+            <span class="font-bold text-[16px] tracking-wide">halo@dimasarta.design</span>
+            <span class="text-[#b8ff3d] text-[22px] group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= FOOTER ================= -->
+      <footer class="w-full bg-[#07080b] px-6 sm:px-12 lg:px-[80px] pt-[72px] pb-10 flex flex-col gap-16">
+        <!-- Main Footer Row -->
+        <div class="flex flex-col sm:flex-row justify-between items-start gap-8">
+          <!-- Brand & Details -->
+          <div class="flex flex-col gap-3">
+            <span class="font-['Space_Grotesk'] font-bold text-[28px] text-[#f2f4f8]">
+              DIMAS ARTA®
+            </span>
+            <div class="text-[#969eae] text-[13px] leading-[1.5]">
+              <p>Product Designer × Creative Developer</p>
+              <p>Jakarta, Indonesia</p>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="flex flex-wrap gap-8 sm:gap-[42px] text-[#f2f4f8] text-[13px]">
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="hover:text-[#b8ff3d] transition-colors flex items-center gap-1">
+              LinkedIn <span>↗</span>
+            </a>
+            <a href="https://dribbble.com" target="_blank" rel="noreferrer" class="hover:text-[#b8ff3d] transition-colors flex items-center gap-1">
+              Dribbble <span>↗</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" class="hover:text-[#b8ff3d] transition-colors flex items-center gap-1">
+              Instagram <span>↗</span>
+            </a>
+            <a href="https://read.cv" target="_blank" rel="noreferrer" class="hover:text-[#b8ff3d] transition-colors flex items-center gap-1">
+              Read.cv <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Meta Bottom Row -->
+        <div class="border-t border-[#252a35] pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[#969eae] text-[11px]">
+          <p>© 2026 Dimas Arta. Dirancang dan dibangun dengan niat.</p>
+          <p id="local-time" class="font-mono">JKT 15:42 · GMT+7</p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script>
+    // Live update for Jakarta time in footer
+    function updateJakartaTime() {
+      const now = new Date();
+      const options = {
+        timeZone: 'Asia/Jakarta',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      };
+      const formatter = new Intl.DateTimeFormat('id-ID', options);
+      const timeStr = formatter.format(now);
+      const el = document.getElementById('local-time');
+      if (el) {
+        el.innerText = `JKT ${timeStr} · GMT+7`;
+      }
+    }
+    updateJakartaTime();
+    setInterval(updateJakartaTime, 60000);
+  </script>
+</body>
+</html>
